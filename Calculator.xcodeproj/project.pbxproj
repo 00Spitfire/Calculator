@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00E8D871C4EC99A0048BCC2 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E8D861C4EC99A0048BCC2 /* CalculatorBrain.swift */; };
 		F0E1F1611C46099600E63C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1F1601C46099600E63C51 /* AppDelegate.swift */; };
 		F0E1F1631C46099600E63C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1F1621C46099600E63C51 /* ViewController.swift */; };
 		F0E1F1661C46099600E63C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E1F1641C46099600E63C51 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F00E8D861C4EC99A0048BCC2 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		F0E1F15D1C46099600E63C51 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E1F1601C46099600E63C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0E1F1621C46099600E63C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				F0E1F1601C46099600E63C51 /* AppDelegate.swift */,
 				F0E1F1621C46099600E63C51 /* ViewController.swift */,
+				F00E8D861C4EC99A0048BCC2 /* CalculatorBrain.swift */,
 				F0E1F1641C46099600E63C51 /* Main.storyboard */,
 				F0E1F1671C46099600E63C51 /* Assets.xcassets */,
 				F0E1F1691C46099600E63C51 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00E8D871C4EC99A0048BCC2 /* CalculatorBrain.swift in Sources */,
 				F0E1F1631C46099600E63C51 /* ViewController.swift in Sources */,
 				F0E1F1611C46099600E63C51 /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +292,7 @@
 				F0E1F1711C46099600E63C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
